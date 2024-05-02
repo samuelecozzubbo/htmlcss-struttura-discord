@@ -36,52 +36,74 @@ header{
 
 #main-nav ul{ 
     list-style-type: none;
-    padding: 10 80px;
     width: 50%;
     display: flex; 
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 /* regole main */
 
+/* SEZIONE 1 */
 #intestazione{
     /* DEBUG */
-    background-color: rgb(0, 0, 42);
-    height: 300px;
+    background-color: rgb(0, 0, 98);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pink-square{
-    width: 600px;
-    height: 200px;
+    width: 800px;
+    height: 300px;
     background-color: rgb(249, 88, 201);
-    margin: auto;
     border: 1px dashed black;
 }
 
+/* SEZIONE 2 */
 .white-section{
     /* DEBUG */
     background-color: white;
-    min-height: 100px;
+    min-height: 400px;
     height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.blue-square{
+    height: 300px;
+    width: 800px;
+    background-color: rgb(46, 234, 234);
+    border: 1px dashed black;
+}
+
+.rose-square{
+    height: 300px;
+    width: 800px;
+    background-color: pink;
+    border: 1px dashed black;
+    height: 300px;
+}
+/* Sezione 3 */
 .gray-section{
     /* DEBUG */
     background-color: lightgray;
-    min-height: 100px;
+    min-height: 400px;
     height: 15%;
 }
 
 .black-section{
     /* DEBUG */
     background-color: black;
-    min-height: 100px;
+    min-height: 400px;
     height: 15%;
 }
 
 /* Regole footer */
 footer{
     background-color: black;
-    min-height: 50px;
+    min-height: 10px;
 }
