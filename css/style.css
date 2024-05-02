@@ -73,19 +73,24 @@ header{
     justify-content: center;
 }
 
+.square-container{
+    display: flex;
+    width: 1000px;
+}
+
 .blue-square{
     height: 300px;
-    width: 800px;
-    background-color: rgb(46, 234, 234);
+    background-color: royalblue;
     border: 1px dashed black;
+    flex-grow: 2;
 }
 
 .rose-square{
     height: 300px;
-    width: 800px;
     background-color: pink;
     border: 1px dashed black;
     height: 300px;
+    flex-grow: 1;
 }
 /* Sezione 3 */
 .gray-section{
@@ -93,17 +98,71 @@ header{
     background-color: lightgray;
     min-height: 400px;
     height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.gray-section .blue-square{
+    flex-grow: 1;
+}
+
+.gray-section .rose-square{
+    flex-grow: 2;
+}
+
+/* Sezione 5 */
+.green-square{
+    width: 600px;
+    height: 600px;
+    background-color:green;
+    border: 1px dashed black;
+    margin: 3% 0;
+}
+
+/* Sezione 6 */
 .black-section{
     /* DEBUG */
     background-color: black;
     min-height: 400px;
     height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#red-box{
+    background-color: brown;
+    height: 350px;
+    width: 200px;
+    border: 1px dashed white;
+}
+
+.acqua-box{
+    background-color: aquamarine;
+    height: 350px;
+    width: 100px;
+    border: 1px dashed white;
 }
 
 /* Regole footer */
 footer{
     background-color: black;
     min-height: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#footer-section{
+    background-color: aquamarine;
+    width: 600px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div{
+    background-color: pink;
+    border: 1px dashed black;
 }
