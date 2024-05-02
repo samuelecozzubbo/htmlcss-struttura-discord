@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(0, 0, 42);
-}
+
 
 a{
     text-decoration: none;
@@ -46,3 +44,44 @@ header{
 }
 
 /* regole main */
+
+#intestazione{
+    /* DEBUG */
+    background-color: rgb(0, 0, 42);
+    height: 300px;
+}
+
+.pink-square{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(249, 88, 201);
+    margin: auto;
+    border: 1px dashed black;
+}
+
+.white-section{
+    /* DEBUG */
+    background-color: white;
+    min-height: 100px;
+    height: 15%;
+}
+
+.gray-section{
+    /* DEBUG */
+    background-color: lightgray;
+    min-height: 100px;
+    height: 15%;
+}
+
+.black-section{
+    /* DEBUG */
+    background-color: black;
+    min-height: 100px;
+    height: 15%;
+}
+
+/* Regole footer */
+footer{
+    background-color: black;
+    min-height: 50px;
+}
